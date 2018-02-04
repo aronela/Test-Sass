@@ -1,0 +1,71 @@
+@import "variabile";
+@import "compass/utilities/sprites";
+@import "work-icons/*.png";
+@include all-work-icons-sprites;
+
+@mixin my-round-corner($raza) {
+  border-radius: $raza;
+ width: 70px;
+}
+
+@mixin my-size($dimensiune) {
+  width: $dimensiune + 5px;
+  height: $dimensiune + 5px;
+}
+
+@mixin respond-to($media) {
+  @if $media == small-screen {
+    @media (max-width: $small-screen) { @content; }
+  } @else if $media == medium-screen {
+    @media (max-width: $medium-screen) { @content; }
+  } @else if $media == big-screen {
+    @media (max-width: $big-screen) { @content; }
+  }
+}
+
+.my-font {
+  font-family: "Montserrat ExtraLight";
+  font-size: 30px;
+  color: white;
+
+}
+
+.box {
+  $square: 100px !global;
+  @include my-size($square);
+  margin: 0 auto;
+  text-align: center;
+  a {
+    @extend .my-font;
+    font-style: normal;
+  }
+}
+
+.box1 {
+  @include respond-to(small-screen) {
+    background-color: red;
+  }
+  background-color: $bgcolor-box1;
+  @include my-round-corner(10px);
+}
+
+.box1 a {
+  @include respond-to(small-screen) {
+    font-size: 90px;
+  }
+}
+
+.box2 {
+  background-color: $bgcolor-box2;
+  @include my-round-corner(15px);
+}
+
+.box3 {
+  background-color: $bgcolor-box3;
+  @include my-round-corner(20px);
+}
+
+.pic {
+  width: 100px;
+  height: 75px;
+}

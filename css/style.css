@@ -1,0 +1,79 @@
+/* line 64, work-icons/*.png */
+.work-icons-sprite, .work-icons-what-we-do-pic1, .work-icons-what-we-do-pic2, .work-icons-what-we-do-pic3 {
+  background-image: url('/Test-Sass/images/work-icons-s17d03f92ef.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.work-icons-what-we-do-pic1 {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.work-icons-what-we-do-pic2 {
+  background-position: 0 -74px;
+}
+
+/* line 84, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.work-icons-what-we-do-pic3 {
+  background-position: 0 -142px;
+}
+
+/* line 26, ../sass/style.scss */
+.my-font, .box a {
+  font-family: "Montserrat ExtraLight";
+  font-size: 30px;
+  color: white;
+}
+
+/* line 33, ../sass/style.scss */
+.box {
+  width: 105px;
+  height: 105px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 38, ../sass/style.scss */
+.box a {
+  font-style: normal;
+}
+
+/* line 44, ../sass/style.scss */
+.box1 {
+  background-color: #ba2d65;
+  border-radius: 10px;
+  width: 70px;
+}
+@media (max-width: 500px) {
+  /* line 44, ../sass/style.scss */
+  .box1 {
+    background-color: red;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 52, ../sass/style.scss */
+  .box1 a {
+    font-size: 90px;
+  }
+}
+
+/* line 58, ../sass/style.scss */
+.box2 {
+  background-color: #102027;
+  border-radius: 15px;
+  width: 70px;
+}
+
+/* line 63, ../sass/style.scss */
+.box3 {
+  background-color: #f06292;
+  border-radius: 20px;
+  width: 70px;
+}
+
+/* line 68, ../sass/style.scss */
+.pic {
+  width: 100px;
+  height: 75px;
+}
